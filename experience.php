@@ -24,8 +24,8 @@ $experiences = [
     ],
     'images'   => [
       /* Remplacez par vos vraies images */
-      ['src' => 'assets/img/bac.png',              'alt' => 'Lycée Paul Mathou'],
-      ['src' => 'assets/img/lycee-paul-mathou.jpg','alt' => 'Vue du lycée Paul Mathou'],
+      ['src' => 'assets/img/bac.png', 'alt' => 'Filière STI2D'],
+      ['src' => 'assets/img/bac.png', 'alt' => 'Logo filière STI2D'],
     ],
   ],
   [
@@ -46,8 +46,8 @@ $experiences = [
         'Les cours de cybersécurité m\'ont sensibilisé aux bonnes pratiques de protection des données. J\'ai aussi découvert les fondamentaux des réseaux et des systèmes d\'exploitation, essentiels pour comprendre l\'environnement dans lequel une application évolue.',
     ],
     'images'   => [
-      ['src' => 'assets/img/bts1.png',                'alt' => 'BTS 1ère année'],
-      ['src' => 'assets/img/lycee-paul-sabatier.jpg', 'alt' => 'Lycée Paul Sabatier — Carcassonne'],
+      ['src' => 'assets/img/bts1.png', 'alt' => 'BTS SIO'],
+      ['src' => 'assets/img/bts1.png', 'alt' => 'Logo BTS SIO'],
     ],
   ],
   [
@@ -68,8 +68,8 @@ $experiences = [
         'Découverte d\'un environnement professionnel Agile, autonomie, polyvalence, et confiance en mes capacités techniques. Un vrai tremplin pour la suite.',
     ],
     'images'   => [
-      ['src' => 'assets/img/stage1.png',              'alt' => 'Stage Arobatic'],
-      ['src' => 'assets/img/arobatic-location.jpg',   'alt' => 'Arobatic — Toulouse'],
+      ['src' => 'assets/img/stage1.png', 'alt' => 'Logo Arobatic'],
+      ['src' => 'assets/img/stage1.png', 'alt' => 'Arobatic — Informatique & Bureautique'],
     ],
   ],
   [
@@ -90,18 +90,18 @@ $experiences = [
         'Les projets en groupe m\'ont permis d\'appliquer des méthodes agiles, de perfectionner ma communication et de m\'impliquer dans une organisation collaborative proche du monde professionnel.',
     ],
     'images'   => [
-      ['src' => 'assets/img/bts1.png',                'alt' => 'BTS 2ème année'],
-      ['src' => 'assets/img/lycee-paul-sabatier.jpg', 'alt' => 'Lycée Paul Sabatier'],
+      ['src' => 'assets/img/bts1.png', 'alt' => 'BTS SIO 2ème année'],
+      ['src' => 'assets/img/bts1.png', 'alt' => 'Logo BTS SIO SLAM'],
     ],
   ],
 
   [
     'id'       => 'stage3',
     'type'     => 'Stage',
-    'title'    => 'Stage — 3ème année',
+    'title'    => 'Stage — Logigames',
     'org'      => 'Logigames',
     'period'   => 'Janvier — Février 2026',
-    'location' => 'Carcassonne, Aude',
+    'location' => 'Lézignan-Corbières, Aude',
     'tags'     => ['WordPress', 'PHP', 'MySQL', 'Gestion de projet'],
     'summary'  => 'Création d\'un site vitrine boutique et management d\'un site WordPress existant (performance, plugins, base de données produits).',
     'desc'     => [
@@ -113,7 +113,7 @@ $experiences = [
         'Gestion d\'un projet client réel avec contraintes de délai. Maîtrise de l\'environnement WordPress en production : optimisation de performance, maintenance de base de données et résolution d\'incidents.',
     ],
     'images'   => [
-      ['src' => 'assets/img/stage3.png', 'alt' => 'Stage 3ème année'],
+      ['src' => 'assets/img/logigames_site.png', 'alt' => 'Site vitrine Logigames'],
     ],
   ],
   [
@@ -134,8 +134,8 @@ $experiences = [
         'Une vraie vision du travail en entreprise : rigueur, documentation et collaboration sont essentielles. J\'ai consolidé mes compétences back-end et ma communication technique — des qualités clés pour aborder de futurs projets complexes.',
     ],
     'images'   => [
-      ['src' => 'assets/img/stage2.png',            'alt' => 'Stage GTL Digital'],
-      ['src' => 'assets/img/gtl-digital-location.jpg','alt' => 'GTL Digital — Lézignan-Corbières'],
+      ['src' => 'assets/img/gtl.png', 'alt' => 'Logo GTL Digital'],
+      ['src' => 'assets/img/gtl.png', 'alt' => 'GTL — Agence de comm'],
     ],
   ],
 ];
@@ -196,7 +196,7 @@ $experiences = [
               <?php if (!empty($exp['images'])): ?>
               <div class="exp-images">
                 <?php foreach ($exp['images'] as $img): ?>
-                  <div class="exp-img-wrap">
+                  <div class="exp-img-wrap logo-wrap">
                     <img src="<?= $img['src'] ?>" alt="<?= $img['alt'] ?>"
                          onerror="this.parentElement.style.display='none'">
                     <p class="exp-img-caption"><?= $img['alt'] ?></p>
