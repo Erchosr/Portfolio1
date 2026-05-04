@@ -90,73 +90,11 @@ include 'includes/header.php';
 
     </section>
 
-    <hr class="hero-divider">
-
-    <!-- ======= PROJETS RÉCENTS ======= -->
-    <section class="home-section">
-      <h2 class="home-section-title">Projets récents</h2>
-      <div class="projects-grid">
-
-        <div class="project-card fade-in">
-          <div class="project-thumb">🌐</div>
-          <div class="project-body">
-            <p class="project-type">Site web</p>
-            <h3>Nom du projet</h3>
-            <p>Courte description — ce que fait le projet et le problème qu'il résout.</p>
-            <div class="project-footer">
-              <div class="project-stack">
-                <span>PHP</span><span>MySQL</span><span>JS</span>
-              </div>
-              <div class="project-links">
-                <a href="#" class="project-link">↗ Démo</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="project-card fade-in">
-          <div class="project-thumb">📊</div>
-          <div class="project-body">
-            <p class="project-type">Application</p>
-            <h3>Nom du projet</h3>
-            <p>Courte description — ce que fait le projet et le problème qu'il résout.</p>
-            <div class="project-footer">
-              <div class="project-stack">
-                <span>HTML</span><span>CSS</span><span>PHP</span>
-              </div>
-              <div class="project-links">
-                <a href="#" class="project-link">↗ Démo</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="project-card fade-in">
-          <div class="project-thumb">🔧</div>
-          <div class="project-body">
-            <p class="project-type">Outil / Script</p>
-            <h3>Nom du projet</h3>
-            <p>Courte description — ce que fait le projet et le problème qu'il résout.</p>
-            <div class="project-footer">
-              <div class="project-stack">
-                <span>Python</span><span>Bash</span>
-              </div>
-              <div class="project-links">
-                <a href="#" class="project-link">GitHub</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-      <p style="margin-top:1.5rem;">
-        <a href="projets.php" class="btn btn-outline">Tous les projets →</a>
-      </p>
-    </section>
+    
 
     <!-- ======= STACK ======= -->
     <section class="home-section">
-      <h2 class="home-section-title">Stack technique</h2>
+      <h2 class="home-section-title">Competences</h2>
       <div class="skill-tags" style="gap:.6rem;">
         <span class="skill-tag highlight">HTML / CSS</span>
         <span class="skill-tag highlight">JavaScript</span>
@@ -166,7 +104,6 @@ include 'includes/header.php';
         <span class="skill-tag">Python</span>
         <span class="skill-tag">Linux</span>
         <span class="skill-tag">React</span>
-        <span class="skill-tag">Figma</span>
       </div>
       <p style="margin-top:1.25rem;">
         <a href="competences.php" class="btn btn-outline" style="font-size:.8rem;">Voir toutes mes compétences →</a>
@@ -188,7 +125,7 @@ include 'includes/header.php';
         </a>
         <a href="veille.php" class="blog-card fade-in" style="text-decoration:none;animation-delay:.1s;">
           <div class="blog-meta">
-            <span class="blog-date">Fév. 2025</span>
+            <span class="blog-date">Fév. 2026</span>
             <span class="blog-tag">Robotique</span>
           </div>
           <h3>La robotique humanoïde prend son envol</h3>

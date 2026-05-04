@@ -25,7 +25,6 @@ $experiences = [
     'images'   => [
       /* Remplacez par vos vraies images */
       ['src' => 'assets/img/bac.png', 'alt' => 'Filière STI2D'],
-      ['src' => 'assets/img/bac.png', 'alt' => 'Logo filière STI2D'],
     ],
   ],
   [
@@ -47,7 +46,6 @@ $experiences = [
     ],
     'images'   => [
       ['src' => 'assets/img/bts1.png', 'alt' => 'BTS SIO'],
-      ['src' => 'assets/img/bts1.png', 'alt' => 'Logo BTS SIO'],
     ],
   ],
   [
@@ -69,7 +67,6 @@ $experiences = [
     ],
     'images'   => [
       ['src' => 'assets/img/stage1.png', 'alt' => 'Logo Arobatic'],
-      ['src' => 'assets/img/stage1.png', 'alt' => 'Arobatic — Informatique & Bureautique'],
     ],
   ],
   [
@@ -77,7 +74,7 @@ $experiences = [
     'type'     => 'Formation',
     'title'    => 'BTS SIO SLAM — 2ème année',
     'org'      => 'Lycée Paul Sabatier',
-    'period'   => '2024 — 2025',
+    'period'   => '2024 — 2026',
     'location' => 'Carcassonne, Aude',
     'tags'     => ['Laravel', 'Java', 'Android', 'API REST', 'Cybersécurité', 'NoSQL'],
     'summary'  => 'Approfondissement des frameworks modernes, cybersécurité avancée et projets d\'équipe concrets.',
@@ -91,29 +88,7 @@ $experiences = [
     ],
     'images'   => [
       ['src' => 'assets/img/bts1.png', 'alt' => 'BTS SIO 2ème année'],
-      ['src' => 'assets/img/bts1.png', 'alt' => 'Logo BTS SIO SLAM'],
-    ],
-  ],
-
-  [
-    'id'       => 'stage3',
-    'type'     => 'Stage',
-    'title'    => 'Stage — Logigames',
-    'org'      => 'Logigames',
-    'period'   => 'Janvier — Février 2026',
-    'location' => 'Lézignan-Corbières, Aude',
-    'tags'     => ['WordPress', 'PHP', 'MySQL', 'Gestion de projet'],
-    'summary'  => 'Création d\'un site vitrine boutique et management d\'un site WordPress existant (performance, plugins, base de données produits).',
-    'desc'     => [
-      'Création d\'un site vitrine boutique' =>
-        'Développement d\'un site de présentation de boutique, du 6 janvier au 15 février 2026. Conception de l\'interface, intégration du catalogue et mise en ligne.',
-      'Management WordPress' =>
-        'Intervention sur un site WordPress existant pour résoudre des problèmes de lenteur, optimiser les plugins et gérer la base de données produits. Diagnostics, optimisations et documentation des interventions.',
-      'Ce que j\'ai appris' =>
-        'Gestion d\'un projet client réel avec contraintes de délai. Maîtrise de l\'environnement WordPress en production : optimisation de performance, maintenance de base de données et résolution d\'incidents.',
-    ],
-    'images'   => [
-      ['src' => 'assets/img/logigames_site.png', 'alt' => 'Site vitrine Logigames'],
+      ['src' => 'assets/img/photoforyou_logo.png', 'alt' => 'Travail Photoforyou'],
     ],
   ],
   [
@@ -134,8 +109,30 @@ $experiences = [
         'Une vraie vision du travail en entreprise : rigueur, documentation et collaboration sont essentielles. J\'ai consolidé mes compétences back-end et ma communication technique — des qualités clés pour aborder de futurs projets complexes.',
     ],
     'images'   => [
-      ['src' => 'assets/img/gtl.png', 'alt' => 'Logo GTL Digital'],
       ['src' => 'assets/img/gtl.png', 'alt' => 'GTL — Agence de comm'],
+      ['src' => 'assets/img/gtl_api_screenshot.png', 'alt' => 'GTL — Api Rest'],
+    ],
+  ],
+  [
+    'id'       => 'stage3',
+    'type'     => 'Stage',
+    'title'    => 'Stage — Logigames',
+    'org'      => 'Logigames',
+    'period'   => 'Janvier — Février 2026',
+    'location' => 'Lézignan-Corbières, Aude',
+    'tags'     => ['WordPress', 'PHP', 'MySQL', 'Gestion de projet'],
+    'summary'  => 'Création d\'un site vitrine boutique et management d\'un site WordPress existant (performance, plugins, base de données produits).',
+    'desc'     => [
+      'Création d\'un site vitrine boutique' =>
+        'Développement d\'un site de présentation de boutique, du 6 janvier au 15 février 2026. Conception de l\'interface, intégration du catalogue et mise en ligne.',
+      'Management WordPress' =>
+        'Intervention sur un site WordPress existant pour résoudre des problèmes de lenteur, optimiser les plugins et gérer la base de données produits. Diagnostics, optimisations et documentation des interventions.',
+      'Ce que j\'ai appris' =>
+        'Gestion d\'un projet client réel avec contraintes de délai. Maîtrise de l\'environnement WordPress en production : optimisation de performance, maintenance de base de données et résolution d\'incidents.',
+    ],
+    'images'   => [
+      ['src' => 'assets/img/logigames_site.png', 'alt' => 'Site vitrine Logigames'],
+      ['src' => 'assets/img/stage3.png', 'alt' => 'Logo Logigames'],
     ],
   ],
 ];
