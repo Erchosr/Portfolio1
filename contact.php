@@ -25,16 +25,16 @@ include 'includes/header.php';
       <!-- Liens de contact -->
       <div class="contact-cards fade-in">
 
-        <a href="mailto:votre@email.com" class="contact-card">
+        <a href="mailto:erwankal31@gmail.com" class="contact-card">
           <div class="contact-card-icon">✉️</div>
           <div>
             <p class="contact-card-label">Email</p>
-            <p class="contact-card-value">votre@email.com</p>
+            <p class="contact-card-value">erwankal31@gmail.com</p>
           </div>
           <span class="contact-card-arrow">↗</span>
         </a>
 
-        <a href="https://linkedin.com/in/votre-profil" target="_blank" rel="noopener" class="contact-card">
+        <a href="https://www.linkedin.com/in/erwan-arnaud-0641a32aa/" target="_blank" rel="noopener" class="contact-card">
           <div class="contact-card-icon">💼</div>
           <div>
             <p class="contact-card-label">LinkedIn</p>
@@ -52,7 +52,7 @@ include 'includes/header.php';
           <span class="contact-card-arrow">↗</span>
         </a>
 
-        <a href="#" class="contact-card" download>
+        <a href="assets/pdf/CV_Erwan_Arnaud.pdf" class="contact-card" download>
           <div class="contact-card-icon">📄</div>
           <div>
             <p class="contact-card-label">Curriculum Vitæ</p>
@@ -67,7 +67,7 @@ include 'includes/header.php';
       <div class="contact-info-grid fade-in">
         <div class="contact-info-block">
           <p class="contact-info-label">📍 Localisation</p>
-          <p class="contact-info-value">Carcassonne, Aude<br><span>Mobilité nationale · Télétravail possible</span></p>
+          <p class="contact-info-value">Cierp-Gaud, Haute-Garonne<br><span>Mobilité nationale · Télétravail possible</span></p>
         </div>
         <div class="contact-info-block">
           <p class="contact-info-label">🎓 Formation</p>

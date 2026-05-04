@@ -94,6 +94,28 @@ $experiences = [
       ['src' => 'assets/img/lycee-paul-sabatier.jpg', 'alt' => 'Lycée Paul Sabatier'],
     ],
   ],
+
+  [
+    'id'       => 'stage3',
+    'type'     => 'Stage',
+    'title'    => 'Stage — 3ème année',
+    'org'      => 'Logigames',
+    'period'   => 'Janvier — Février 2026',
+    'location' => 'Carcassonne, Aude',
+    'tags'     => ['WordPress', 'PHP', 'MySQL', 'Gestion de projet'],
+    'summary'  => 'Création d\'un site vitrine boutique et management d\'un site WordPress existant (performance, plugins, base de données produits).',
+    'desc'     => [
+      'Création d\'un site vitrine boutique' =>
+        'Développement d\'un site de présentation de boutique, du 6 janvier au 15 février 2026. Conception de l\'interface, intégration du catalogue et mise en ligne.',
+      'Management WordPress' =>
+        'Intervention sur un site WordPress existant pour résoudre des problèmes de lenteur, optimiser les plugins et gérer la base de données produits. Diagnostics, optimisations et documentation des interventions.',
+      'Ce que j\'ai appris' =>
+        'Gestion d\'un projet client réel avec contraintes de délai. Maîtrise de l\'environnement WordPress en production : optimisation de performance, maintenance de base de données et résolution d\'incidents.',
+    ],
+    'images'   => [
+      ['src' => 'assets/img/stage3.png', 'alt' => 'Stage 3ème année'],
+    ],
+  ],
   [
     'id'       => 'stage2',
     'type'     => 'Stage',
@@ -130,8 +152,8 @@ $experiences = [
 
     <!-- CTA CV -->
     <div style="margin-bottom:2.5rem;display:flex;gap:.75rem;flex-wrap:wrap;">
-      <a href="#" class="btn btn-outline" download>Télécharger mon CV ↓</a>
-      <a href="#" class="btn btn-outline" target="_blank">Tableau de synthèse ↓</a>
+      <a href="assets/pdf/CV_Erwan_Arnaud.pdf" class="btn btn-outline" download>Télécharger mon CV ↓</a>
+      <a href="assets/pdf/Tableau_Synthese_Erwan_Arnaud.pdf" class="btn btn-outline" target="_blank">Tableau de synthèse ↓</a>
     </div>
 
     <!-- TIMELINE -->

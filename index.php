@@ -21,7 +21,7 @@ include 'includes/header.php';
         <div class="hero-actions">
           <a href="projets.php" class="btn btn-primary">Voir mes projets</a>
           <a href="contact.php" class="btn btn-outline">Me contacter</a>
-          <a href="#" target="_blank" class="btn btn-outline" download>CV ↓</a>
+          <a href="assets/pdf/CV_Erwan_Arnaud.pdf" class="btn btn-outline" download>CV ↓</a>
         </div>
       </div>
       <div class="hero-avatar fade-in">👨‍💻</div>
@@ -36,7 +36,7 @@ include 'includes/header.php';
       <div class="about-grid">
 
         <div class="card about-block">
-          <h1 class="about-label">présentation</h1>
+          <p class="about-label">// présentation</p>
           <p>
             Je m'appelle <strong>Erwan Arnaud</strong>, étudiant en <strong>BTS SIO option SLAM</strong>
             au lycée Paul Sabatier à Carcassonne. J'ai choisi cette filière pour approfondir mes
@@ -50,7 +50,7 @@ include 'includes/header.php';
         </div>
 
         <div class="card about-block">
-          <h1 class="about-label">objectifs</h1>
+          <p class="about-label">// objectifs</p>
           <p>
             À court terme : valider mon BTS avec de bons résultats, puis poursuivre en
             <strong>licence pro ou école d'ingénieur</strong> pour approfondir le développement web
@@ -61,7 +61,7 @@ include 'includes/header.php';
             cybersécurité — et contribuer à des projets qui ont un impact réel.
           </p>
           <div style="margin-top:1.25rem;">
-            <a href="#" target="_blank" class="btn btn-outline" style="font-size:.8rem;" download>
+            <a href="assets/pdf/Tableau_Synthese_Erwan_Arnaud.pdf" class="btn btn-outline" style="font-size:.8rem;" target="_blank">
               Tableau de synthèse ↓
             </a>
           </div>
@@ -71,7 +71,7 @@ include 'includes/header.php';
 
       <!-- Sujets SLAM -->
       <div class="card" style="margin-top:1.25rem;">
-        <h1 class="about-label">Sujets étudiés en SLAM</h1>
+        <p class="about-label">// sujets étudiés en SLAM</p>
         <div class="slam-grid">
           <ul class="slam-list">
             <li>Programmation : HTML, CSS, JavaScript, PHP, SQL</li>
